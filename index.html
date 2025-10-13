@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head> 
+        <link rel='stylesheet' href='visual.css'>
     </head>
     <header>
         <h1>YgoProcent</h1>
@@ -12,11 +13,14 @@
         <input type="number" id="draw" value="5">
         <p>Карты которые надо достать в стартовой руке</p>
         <input type="number" id="cards_need">
-        <p>Гарнеты</p>
-        <input type="number" id="garnet">
+        <div>
+            <button id="addOptions">Расширенные Опции</button>
+            <button id="sumbit2" class="hidden">Добавить Энджин</button>
+        </div>
+        <div id="options">
+        </div>
         <button id="sumbit">Готово</button>
         <div id="output">
-
         </div>
         <script src="script.js"></script>
     </body>
